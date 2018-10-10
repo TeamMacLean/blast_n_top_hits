@@ -1,6 +1,8 @@
 ## Introduction
 
-Bash script to get top n best results. It uses the commands awk and sort for getting the results.
+Most BLAST user want to get top N best hits. The option -max_target_seqs 1 is misleading to the most users that they think gives top 1 hit for each query. But it's not. See a paper here about this issue. https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty833/5106166
+
+I have tried to get the top N best hits with this script. It uses the commands awk and sort for getting the results.
 
 ## Methodology
 
